@@ -5,7 +5,7 @@
 
 ## Установка
 ```bash
-composer require cloudpayments/cloud-payments-client
+composer require cloudpayments/cloudpayments-php-client
 ```
 
 ## Использование
@@ -13,7 +13,7 @@ composer require cloudpayments/cloud-payments-client
 $client = new \CloudPayments\Manager($publicKey, $privateKey);
 $transaction = $client->chargeToken($amount, $currency, $accountId, $cardToken);
 
-print $transaction->getId();
+echo $transaction->getId();
 ```
 
 ## Передача чека в онлайн-кассу
