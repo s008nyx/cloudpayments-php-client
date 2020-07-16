@@ -1,7 +1,7 @@
 {
-    "name" : "cloudpayments/cloud-payments-client",
+    "name" : "s008nyx/cloud-payments-client",
     "description": "Client for CloudPayments.ru",
-    "version" : "0.0.9",
+    "version" : "1.0",
     "type" : "library",
     "license" : "MIT",
     "require" : {
